@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sözde Elementler</title>
+    <style>
+        /* p::first-letter{
+            font-size: 49px;
+
+        }
+        p::first-line{
+            color: red;
+        } */
+        p:first-child{
+            color: sienna;
+        }
+        p::after{
+            content: "🎶";
+        }
+        p::before{
+            content: "😎";
+        }
+    </style>
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptatibus quis fugiat, repellat distinctio aperiam sint dolorem possimus quod reiciendis sapiente, maiores fugit aspernatur. Alias architecto repellendus, fuga, recusandae facere nostrum perferendis aliquid eius maxime reprehenderit, tempora tenetur nisi aliquam velit laborum delectus quae. Expedita eligendi autem quaerat consectetur inventore quas et, facere exercitationem voluptatem provident nihil adipisci non ipsa eos earum, nobis, commodi optio modi tempore nisi blanditiis error quis. Aut facere impedit odit ratione perspiciatis harum excepturi minus expedita incidunt et adipisci commodi dolorem quia aliquid, repellat cum quidem nostrum corrupti, voluptate saepe ipsum? Explicabo ab asperiores accusamus?</p> -->
+    <div>
+        <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+        <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+        <div><p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+            <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p></div>
+    </div>
+</body>
+</html>
